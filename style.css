@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4e54c8,#8f94fb);
+}
+
+#container{
+    width:90%;
+    max-width:750px;
+    text-align:center;
+}
+
+h1{
+    color:white;
+    font-size:3rem;
+    text-shadow:2px 2px 8px black;
+}
+
+#rule{
+    color:white;
+    margin-top:10px;
+    font-size:1.1rem;
+}
+
+.game{
+    margin-top:45px;
+}
+
+#guess{
+    width:250px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    font-size:1rem;
+    outline:none;
+}
+
+#guess-btn{
+    margin-left:12px;
+    padding:14px 24px;
+    border:none;
+    border-radius:10px;
+    background:#00c853;
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#guess-btn:hover{
+    transform:scale(1.08);
+}
+
+#result{
+    margin-top:30px;
+    color:white;
+    font-size:1.5rem;
+    font-weight:bold;
+    min-height:35px;
+}
+
+#stats{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:130px;
+    padding:20px;
+    background:rgba(255,255,255,0.15);
+    border-radius:18px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    color:white;
+    font-size:2.8rem;
+}
+
+.card p{
+    margin-top:10px;
+    color:#ffe082;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+
+#reset-btn,
+#giveUp-btn{
+    margin-top:40px;
+    padding:14px 30px;
+    border:none;
+    border-radius:10px;
+    background:#e469e4;
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+    margin-right:5px;
+}
+
+#reset-btn:hover,
+#giveUp-btn:hover{
+    transform:scale(1.08);
+}
